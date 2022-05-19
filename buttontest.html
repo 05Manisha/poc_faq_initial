@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lex FAQ Bot POC</title>
+    <link rel="stylesheet" href="buttontest.css">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.41.0.min.js"></script>
+    <script src="buttontest.js"></script>
+</head>
+
+<body>
+    <h1 style="text-align:  left">Amazon Lex - FAQ POC</h1>
+    <p style="width: 400px">
+        Welcome to Amazon Lex FAQ BOT POC.
+        <a href="https://aws.amazon.com/lex/" title="Amazon Lex (product)" target="_new">Amazon Lex FAQ Bot</a>
+        successfully integrated into your web pages. Try it out.
+    </p>
+    <div id="conversation"
+        style="margin-left: 30px;width: 400px; height: 500px; border: 1px solid #FFFF; background-color: #FFFF; padding: 4px; overflow: scroll">
+    </div>
+    <form id="chatform" style="margin-left: 30px;margin-top: 10px" onsubmit="return pushChat();">
+        <input type="text" id="wisdom" size="80" value="" placeholder="Type your questions here">
+        <input alt="Submit" aria-label="send" type="image" class="submitButton" src="./assets/send_gray.svg">
+    </form>
+</body>

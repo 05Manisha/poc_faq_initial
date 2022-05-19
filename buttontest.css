@@ -1,0 +1,119 @@
+input#wisdom {
+    padding: 4px;
+    font-size: 1em;
+    width: 365px
+}
+
+input::placeholder {
+    color: #a9a9a9;
+    font-style: italic;
+}
+
+.submitButton {
+    display: inline-block;
+    top: 15px;
+    right: 17px;
+    height: 21px;
+    width: 30px;
+    background-repeat: no-repeat;
+    clear: both;
+    padding: 0px;
+    opacity: 0.7;
+}
+
+div.userRequest {
+    margin: 4px;
+    padding: 12px 10px 4px 10px;
+    border-radius: 4px;
+    min-width: 50%;
+    max-width: 85%;
+    float: right;
+    background-color: #027CB1;
+    text-align: auto;
+    color: aliceblue;
+}
+
+p.lexResponse{
+    margin: 4px;
+    padding: 12px 10px 4px 10px;
+    border-radius: 4px;
+    min-width: 50%;
+    max-width: 85%;
+    float: left;
+    background-color: #f2f6f8;
+    text-align: auto;
+    color: rgb(13, 14, 15);
+}
+
+/* p.lexResponse {
+    margin: 4px;
+    padding: 4px 10px 4px 10px;
+    border-radius: 4px;
+    min-width: 50%;
+    max-width: 85%;
+    float: right;
+    background-color: #ffff;
+    font-style: italic;
+} */
+
+btn.buttonResponse{
+    margin: 12px;
+    padding: 12px 10px 4px 10px;
+    border-radius: 4px;
+    min-width: 50%;
+    max-width: 85%;
+    float: left;
+    background-color: #027CB1;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* btn.buttonResponse {
+    margin: 4px;
+    padding: 4px 10px 4px 10px;
+    border-radius: 4px;
+    background: #5E5DF0;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 1;
+    outline: 0 solid transparent;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+} */
+
+img.imageuseresponse {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    margin-top: -6px;
+    float: right
+}
+
+img.imagebotresponse {
+    height: 30px;
+    width: 30px;
+    margin-top: -6px;
+    float: left;
+    margin-right: 20px;
+}
+
+p.lexError {
+    margin: 4px;
+    padding: 4px 10px 4px 10px;
+    border-radius: 4px;
+    text-align: right;
+    min-width: 50%;
+    max-width: 85%;
+    float: right;
+    background-color: #f77;
+}
+
